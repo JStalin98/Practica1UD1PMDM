@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--Creacion de GroupView con el layout LinearLayout -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,6 +8,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.jstalin.practica1ud1pmdm.MainActivity">
+
+    <!-- Para cambiar el icono de la aplicacion he sustiuido la imagen por defecto por una
+     descargada de Internet-->
+
+    <!-- Creacion de 3 view de texto, en la que introduciremos las variables, ademas de darle formato y posicionarlo
+     respecto a su contenedor o padre-->
 
     <TextView
         android:layout_width="wrap_content"
